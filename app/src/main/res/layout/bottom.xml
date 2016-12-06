@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/mainbg"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/line" />
+    <Spinner
+        android:id="@+id/spinner_month"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="7dp"
+        android:background="@null"
+        android:entries="@array/monthlist"
+        android:layout_weight="0.41" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/line2" />
+    <Spinner
+        android:id="@+id/spinner_year"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:layout_marginBottom="7dp"
+        android:entries="@array/yearlist"
+        android:layout_weight="0.16" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/line2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back" />
+    <Button
+        android:id="@+id/title_add"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/add"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/line2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back"
+        android:layout_weight="0.14" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/show_btn"
+        android:background="@drawable/longline"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.12"
+        android:src="@drawable/back" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="13dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/backgroudcolor">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/show_day"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            tools:targetApi="jelly_bean_mr1" />
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/show_listtext"
+            android:textColor="#696464"
+            android:textSize="14sp"
+            android:textAlignment="viewStart"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            tools:targetApi="jelly_bean_mr1" />
+
+    </RelativeLayout>
+</RelativeLayout>

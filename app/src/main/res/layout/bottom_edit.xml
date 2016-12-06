@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back" />
+    <Button
+        android:id="@+id/edit_clock"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/clock" />
+    <ImageView
+    android:layout_width="120dip"
+    android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+    android:layout_gravity="bottom"
+    android:src="@drawable/back" />
+
+    <Button
+        android:id="@+id/insert_button"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:background="@drawable/insert_btn"
+        android:layout_gravity="bottom" />
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/back" />
+    <Button
+        android:id="@+id/edit_done"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:background="@drawable/done_btn"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="7dp" />
+</LinearLayout>
